@@ -78,6 +78,14 @@ body {
 }
 
 
+/* Stats entry popup */
+#measurement-description {
+    padding: 2em;
+    background-color: lightyellow;
+    font-size: .9em;
+}
+
+
 /* Stats entry rows */
 #stats-page li.ui-field-contain label {
     display: inline-block;

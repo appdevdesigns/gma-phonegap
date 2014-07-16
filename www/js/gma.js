@@ -468,6 +468,22 @@ var startGMA = function () {
     });
     
     
+    // Show a pop-up with the measurement description when the user taps and 
+    // holds on a measurement.
+    $('#stats-page ul').on('taphold', 'li', function(){
+        var $row = $(this);
+        var measurement = $row.data('Measurement');
+        var name = measurement.label();
+        var description = measurement.data.measurementDescription;
+        
+        var $popup = $('#measurement-description');
+        $popup.html(
+            '<h3>' + name + '</h3>' +
+            description
+        );
+        $popup.popup('open');
+    });
+    
     
 };
 
