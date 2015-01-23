@@ -1,0 +1,38 @@
+{
+    "GMA": "GMA",
+
+    "Server": "Serveur:",
+    "loading...": "chargement...",
+    "Custom server...": "Serveur personnalisé...",
+    
+    "Credentials": "Lettres de créance:",
+    "Username": "Nom d'utilisateur",
+    "Password": "Mot de passe",
+    "Login": "Connexion",
+    "Log out": "Déconnecter",
+
+    "Custom": "Personnalisés",
+    "GMA Server": "GMA serveur",
+    "CAS Server": "CAS serveur",
+    "Next": "Suivant",
+    
+    "Personal Reports": "Rapports personnels",
+    "Reports": "Rapports",
+    "staff": "Personnels",
+    "staff reports": "Rapports Personnels",
+    "director": "Directeur",
+    "director reports": "Rapports Directeur",
+    "Back": "Arrière",
+    
+    "Make sure your VPN and server settings are correct": "Assurez-vous que vos paramètres VPN et serveur sont corrects",
+    "Notice": "Délai",
+    "OK": "Bien",
+    "Error": "Erreur",
+    "Sorry, there was an error": "Désolé, une erreur s'est produite",
+    "Login failure": "Échec connexion",
+    "Credentials were not accepted": "Pouvoirs ont été rejetées",
+    "No assignments found": "Pas de missions trouvés",
+    "Login session timed out": "Connexion expiration de la session",
+    "Sorry, there was a problem authenticating with the server": "Il y avait un problème de l'authentification avec le serveur",
+    "No reports available": "Pas de rapports disponibles"
+}

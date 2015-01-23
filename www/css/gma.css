@@ -1,0 +1,106 @@
+/*
+    Override some jQueryMobile styles
+*/
+.ui-header .ui-title {
+    /* make side margins less wide in the header */
+    margin: 0 15%;
+}
+
+/*
+    Prevent text selection/highlighting
+*/
+*:not(input,textarea) {
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: -moz-none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+/*
+    Specific formatting
+*/
+
+body {
+    background: url(../res/screen/ios/screen-iphone-portrait.png) no-repeat center center;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    border-top: 20px solid #e9e9e9;
+}
+.container-director {
+    /* see #assignment-toggle.director */
+    border-top: 20px solid lightsteelblue;
+}
+.page {
+    /* all pages hidden by default until shown */
+    display: none;
+    margin-bottom: 1em;
+    background: white;
+}
+
+.visible-page {
+    display: block;
+}
+
+.page .content {
+    padding: 1em;
+}
+
+/* Spacing for login page widgets */
+#login-page label, #login-page button {
+    margin-top: 1em;
+}
+
+/* Spacing for custom server settings widgets */
+#custom-settings label {
+    margin-top: 1em;
+}
+
+#locked-in-server {
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+#login-page [data-role='footer'] {
+    font-size: .5em;
+}
+
+/* Button that toggles between Staff / Director assignments */
+#assignment-toggle.staff {
+}
+#assignment-toggle.director {
+    background-color: lightsteelblue;
+}
+
+
+/* Stats entry popup */
+#measurement-description {
+    padding: 2em;
+    background-color: lightyellow;
+    font-size: .9em;
+}
+
+
+/* Stats entry rows */
+#stats-page li.ui-field-contain label {
+    display: inline-block;
+    font-size: .8em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 71%;
+    margin: 0.6em 0;
+    clear: left;
+}
+#stats-page li.ui-field-contain input {
+    display: inline-block;
+    width: 2em;
+    margin-right: 1.5em; /* give space for the "+" icon */
+    float: right;
+    text-align: center;
+}

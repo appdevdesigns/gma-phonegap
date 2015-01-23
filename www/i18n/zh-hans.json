@@ -1,0 +1,38 @@
+{
+    "GMA": "GMA",
+
+    "Server": "服务器:",
+    "loading...": "加载...",
+    "Custom server...": "自定义服务器...",
+    
+    "Credentials": "认证信息:",
+    "Username": "用户名",
+    "Password": "密码",
+    "Login": "登录",
+    "Log out": "注销",
+
+    "Custom": "自定义设置",
+    "GMA Server": "GMA 服务器",
+    "CAS Server": "CAS 服务器",
+    "Next": "下一步",
+    
+    "Personal Reports": "个人报告",
+    "Reports": "报告",
+    "staff": "员工",
+    "staff reports": "员工报告",
+    "director": "团队负责人",
+    "director reports": "团队负责人报告",
+    "Back": "返回",
+    
+    "Make sure your VPN and server settings are correct": "请确保您的VPN和服务器设置是否正确",
+    "Notice": "通知",
+    "OK": "好",
+    "Error": "错误",
+    "Sorry, there was an error": "对不起，出错了",
+    "Login failure": "登录失败",
+    "Credentials were not accepted": "认证信息被拒绝",
+    "No assignments found": "没有找到任务",
+    "Login session timed out": "登录会话超时",
+    "Sorry, there was a problem authenticating with the server": "对不起，与服务器进行身份验证有问题",
+    "No reports available": "没有可用的报告"
+}

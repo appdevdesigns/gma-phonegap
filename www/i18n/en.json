@@ -1,0 +1,26 @@
+{
+    "GMA": "GMA",
+
+    "Server": "Server:",
+    "loading...": "loading...",
+    "Custom server...": "Custom server...",
+    
+    "Credentials": "Credentials:",
+    "Username": "Username",
+    "Password": "Password",
+    "Login": "Login",
+    "Log out": "Log out",
+
+    "Custom": "Custom",
+    "GMA Server": "GMA Server",
+    "CAS Server": "CAS Server",
+    "Next": "Next",
+    
+    "Personal Reports": "Personal Reports",
+    "Reports": "Reports",
+    "staff": "Staff",
+    "staff reports": "Staff Reports",
+    "director": "Director",
+    "director reports": "Director Reports",
+    "Back": "Back"
+}
